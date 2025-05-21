@@ -39,6 +39,7 @@ const CreatePostPage = () => {
           setValue('cookingTime', recipe.cookingTime);
           setValue('servings', recipe.servings);
           setValue('difficulty', recipe.difficulty);
+
           
           // Set other states
           setIngredients(recipe.ingredients || [{ quantity: '', unit: '', name: '' }]);
@@ -73,7 +74,7 @@ const CreatePostPage = () => {
     newSteps[index].imageFile = file;
     newSteps[index].image = URL.createObjectURL(file);
     setSteps(newSteps);
-  };
+
 
   const handleSignOut = () => {
     navigate('/login');
@@ -211,6 +212,7 @@ const CreatePostPage = () => {
               <h3>Description</h3>
               <div dangerouslySetInnerHTML={{ __html: previewData.description }} />
             </div>
+
 
             <div className="preview-section">
               <h3>Ingredients</h3>
