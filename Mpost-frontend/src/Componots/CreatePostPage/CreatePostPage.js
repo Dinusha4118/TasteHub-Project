@@ -39,6 +39,7 @@ const CreatePostPage = () => {
           setValue('cookingTime', recipe.cookingTime);
           setValue('servings', recipe.servings);
           setValue('difficulty', recipe.difficulty);
+          setValue('difficulty', recipe.difficulty);
           
           // Set other states
           setIngredients(recipe.ingredients || [{ quantity: '', unit: '', name: '' }]);
@@ -72,6 +73,7 @@ const CreatePostPage = () => {
     const newSteps = [...steps];
     newSteps[index].imageFile = file;
     newSteps[index].image = URL.createObjectURL(file);
+    setSteps(newSteps);
     setSteps(newSteps);
   };
 
