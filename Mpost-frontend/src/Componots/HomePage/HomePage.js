@@ -258,6 +258,8 @@ const HomePage = () => {
             <option value="0-30 min">0-30 min</option>
             <option value="30-60 min">30-60 min</option>
             <option value="60+ min">60+ min</option>
+             <option value="60+ min">64+ min</option>
+              <option value="60+ min">66+ min</option>
           </select>
 
           <select
