@@ -74,7 +74,7 @@ const CreatePostPage = () => {
     newSteps[index].imageFile = file;
     newSteps[index].image = URL.createObjectURL(file);
     setSteps(newSteps);
-    setSteps(newSteps);
+  
   };
 
   const handleSignOut = () => {
@@ -212,6 +212,13 @@ const CreatePostPage = () => {
             <div className="preview-section">
               <h3>Description</h3>
               <div dangerouslySetInnerHTML={{ __html: previewData.description }} />
+            </div>
+
+            
+          <div className="preview-content">
+            <div className="preview-section">
+              <h3>Description</h3>
+            
             </div>
 
             <div className="preview-section">
