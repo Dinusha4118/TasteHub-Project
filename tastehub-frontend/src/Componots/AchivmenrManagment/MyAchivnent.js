@@ -81,7 +81,7 @@ function MyAchievements() {
                     )}
                   </div>
                   <div className='dis_con'>
-                    <p className='topic_cont'>{progress.title}</p>
+                    <p className='topic_co nt'>{progress.title}</p>
                     <p className='dis_con_pera' style={{ whiteSpace: "pre-line" }}>{progress.description}</p>
 
                     {progress.imageUrl && (
