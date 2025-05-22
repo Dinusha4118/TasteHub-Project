@@ -226,7 +226,7 @@ function UpdateAchievements() {
                 onChange={handleInputChange}
                 required
               >
-                <option value="" disabled>Select a category</option>
+                <option value="" disabled>Select a category </option>
                 <option value="Tech">Tech</option>
                 <option value="Programming">Programming</option>
                 <option value="Cooking">Cooking</option>
@@ -256,7 +256,7 @@ function UpdateAchievements() {
           </form>
         </div>
       </div>
-    </div>
+    </div>  
   );
 }
 
